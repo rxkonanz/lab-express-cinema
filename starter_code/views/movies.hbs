@@ -1,2 +1,16 @@
-<div class="welcome-div">
+<div>
+  <h1>Ironhack Cinema</h1>
+  <h5>Click on the movie to check the showtimes!</h5>
+  <div class="container">
+    <div class="row">
+      {{#each movies}}
+        <div class="col-md-4">
+          <img src="{{this.image}}">
+          <p>{{this.title}}</p>
+          <a href="/movies/{{this.id}}">See More</a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+  
 </div>
