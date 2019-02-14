@@ -19,6 +19,9 @@ a {
 .movie-info {
   margin-top: 20px; }
 
+.movie-text {
+  margin-top: 80px; }
+
 .welcome-div {
   background-image: url("../images/cinema.jpg");
   background-size: cover;

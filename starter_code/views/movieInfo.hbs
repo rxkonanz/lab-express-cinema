@@ -3,11 +3,15 @@
     <div class="col-md-2">
       <img src="{{movie.image}}">
     </div>
-    <div class="col-md-10">
+    <div class="col-md-10 movie-info">
       <a href="/movies">Go Back</a>
       <h4>{{movie.title}}</h4>
       <h6>Director: {{movie.director}}</h6>
       <p>{{movie.description}}</p>
+      <ul>
+        <li>{{movie.stars}}</li>
+        <li> Show times: {{movie.showtimes}} </li>
+      </ul>
     </div>
   </div>
 </div>
