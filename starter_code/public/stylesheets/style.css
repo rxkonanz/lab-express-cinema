@@ -4,10 +4,25 @@ body {
 a {
   color: #00B7FF; }
 
+#welcome-button {
+  margin-left: 70%;
+  padding-top: 600px; }
+
+.cinema-title {
+  margin-bottom: 40px; }
+
+.each-movie {
+  align-content: center;
+  margin-bottom: 40px;
+  text-align: center; }
+
+.movie-info {
+  margin-top: 20px; }
+
 .welcome-div {
   background-image: url("../images/cinema.jpg");
   background-size: cover;
-  height: 700px;
+  height: 850px;
   width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

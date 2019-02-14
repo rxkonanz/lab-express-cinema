@@ -1,6 +1,13 @@
-{{!-- {{#each movie}} --}}
-  <img src="{{movie.image}}">
-  <h2>{{movie.title}}</h2>
-  <h4>Director: {{movie.director}}</p>
-  <p>{{movie.description}}</p>
-{{!-- {{/each}} --}}
+<div class="container movie-info">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="{{movie.image}}">
+    </div>
+    <div class="col-md-10">
+      <a href="/movies">Go Back</a>
+      <h4>{{movie.title}}</h4>
+      <h6>Director: {{movie.director}}</h6>
+      <p>{{movie.description}}</p>
+    </div>
+  </div>
+</div>
