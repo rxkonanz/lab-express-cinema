@@ -1,0 +1,13 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.welcome-div {
+  background-image: url('../images/cinema.jpg');
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
